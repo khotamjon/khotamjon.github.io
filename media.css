@@ -1,138 +1,99 @@
-/* MEDIA FOR LARGE SIZE */
-@media(max-width:992px) {
-    /* header */
+/* FOR LARGE SIZES */
+@media(max-width:992px) {}
 
-    header .ul {
-        flex-wrap: wrap;
+/* FOR MIDDLE SIZES */
+@media(max-width:768px) {
+    main .main_new .main_fame {
+        font-size: 30px;
+    }
+
+    section .section_title {
+        font-size: 35px;
+    }
+
+    section .section_text {
+        font-size: 13px;
+    }
+}
+
+/* FOR SMALL SIZES */
+@media(max-width:576px) {
+    /* HEADER START */
+
+    header form {
+        width: 350px;
+        height: 400px;
+        transform: translateY(-60px);
+    }
+
+    header .enter {
+        width: 190px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    header .header_intro {
+        font-size: 30px;
+
     }
 
     header .header_title {
-        font-size: 60px;
+        font-size: 34px;
     }
 
-    /* header */
 
-    /* main */
-    main .row {
-        justify-content: center;
-        text-align: center;
+    /* HEADER END */
 
+    /* MAIN START */
+    main .main_new .main_fame {
+        font-size: 34px;
     }
 
-    main .item1 {
-        padding-left: 0;
-        padding-top: 30px;
-        margin-right: 40px;
-        transform: translateX(60px);
+    main .main_tour {
+        font-size: 30px;
     }
 
-    main .item2 {
-        padding-left: 0%;
-        padding-top: 30px;
+    main .main_new .main_fame {
+        font-size: 20px;
     }
 
-    main .main_source {
-        transform: translateX(-100px);
+    main .flag_name2 a {
+        font-size: 20px;
     }
 
-    main .col-4 {
-        width: var(--col-lg-6);
-        text-align: center;
-        justify-content: center;
-    justify-content: space-between;
-    }
-  
-}
-
-/* MEDIA FOR LARGE SIZE */
-
-
-
-
-/* MEDIA FOR MIDDLE SIZE */
-@media(max-width:768px) {
-    main .item1 {
-        text-align: center;
-        margin: 0%;
-        transform: translateX(-10px);
-        padding: 0;
+    main .flag_name4 a {
+        font-size: 20px;
     }
 
-    main .item2 {
-        transform: translateX(100px);
-    }
-}
-
-/* MEDIA FOR MIDDLE SIZE */
-
-
-
-
-
-/* MEDIA FOR SMALL SIZE */
-@media(max-width:576px) {
-    main .item1 {
-        text-align: center;
-        margin: auto;
-        padding: 0%;
+    main .last_title {
+        font-size: 40px;
     }
 
-    main .col-4 {
-        width: var(--col-lg-10);
-        text-align: center;
-        
-       
-    }
-    main .col-4 img{
-        width: 100%;
-        height: auto;
-    
-    }
-    main .item2 {
-        transform: translateX(-10px);
-        padding-left: 60px;
+    main .last_text {
+        font-size: 13px;
     }
 
-    main .main_source {
-        transform: translateX(0px);
-    }
+    /* MAIN END */
 
-    main .main_info {
-        font-size: 12px;
-    }
+    /* SECTION START */
 
-    main .combo {
-        font-size: 24px;
-    }
-
-    main .price {
+    section .section_title {
         font-size: 25px;
     }
 
-    main .btn2 {
-        width: 150px;
-        font-size: 14px;
-
-
+    section .section_text {
+        font-size: 12px;
     }
-footer .col-12{
-    display: block;
-}
-    footer .footer {
-        display: block;
 
+    section .bottom_title {
+        font-size: 35px;
     }
 }
 
-
-/* MEDIA FOR SMALL SIZE */
-
-
-
-
-/* MEDIA FOR NO SIZE */
 @media(max-width:320px) {
-    main .item2 {
-        transform: translateX(-20px);
+    main .wrap_title {
+        padding: 0%;
+
     }
+
 }

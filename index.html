@@ -1,203 +1,347 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
     <link rel="stylesheet" href="media.css">
-    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
 </head>
 
 <body>
     <!-- HEADER START -->
     <header>
         <div class="container">
-            <div class="row  ">
-                <div class="col-12 ">
-                    <nav class="row justify-content-space-between align-items-center ">
-                        <a class="header_ssilka" href="">PIZZERIA</a>
-                        <div class="ul">
-                            <p class="number">+998 (90) 980 77 23</p>
-                            <button class="call" type="submit">Перезвоните мне</button>
-                        </div>
+            <h2 class="header_title">TASHKENT TRAVELS</h2>
 
 
-                    </nav>
-                </div>
+            <div class="row justify-content-center">
+                <h1 class="header_intro">Отдыхайте вместе с<span> Tashkent Travels</span></h1>
+                <p class="header_text">Туристическое агентство «Tashkent Travel» предоставляет свои услуги на
+                    туристическом рынке, начиная с 2010 года. Наши специалисты являются истинными профессионалами своего
+                    дела со значительным опытом работы в сфере туризма.</p>
             </div>
-            <div class="row flex-column align-items-start ">
-                <p class="header_order">Закажите для всей компании</p>
-                <h1 class="header_title">Комбо пиццу</h1>
-                <p class="header_number">Всего за 249 900 сум</p>
-                <button class="btn2" type="submit">
-                    Полное меню
-                </button>
+            <div class="row justify-content-center ">
+                <form action="">
+                    <h2 class="form_letter">Отправить сообщение</h2>
+                    <div class="box">
+                        <input type="text" name="text" id="" placeholder="Ваше Имя" required>
+                        <input type="email" name="email" id="" placeholder="Ваш email" required>
+                        <input type="text" name="text" id="" placeholder="Ваше сообщение" required>
+                        <button class="enter" type="submit">Отправить сообщение<i class="fa fa-long-arrow-right"
+                                aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </form>
             </div>
-
         </div>
     </header>
-    <!-- HEADER FINISH LET'S GO BABY -->
+    <!-- HEADER FINISH -->
+
+
+    <!-- MAIN START -->
     <main>
         <div class="container">
-            <div class="row align-items-center justify-content-center ">
-                <img src="./images/first_03.jpg" alt="icon">
-                <div class="box">
-                    <h2 class="main_title">Уникальная технология</h2>
-                    <p class="main_text">Мы работаем строго по итальянской рецептуре разработанной Франческо Тотти.
-                        Повар итальянской кухни с 8 летним стажем, разработала для нас самые вкусную и уникальную
-                        рецептуру.
-                        Франческо Тотти: «Для меня большая честь видеть итальянскую кухню в Ташкенте».</p>
-                    <div class="row">
-                        <h3 class="name">Франческо Тотти</h3>
-                        <img class="podpis" src="./images/podpis_03.png" alt="icon">
-                    </div>
-                </div>
-            </div>
-            <h3 class="menu">МЕНЮ</h3>
 
-            <!-- main middle start lets'go baby-->
-
-            <div class="row justtify-flex-start align-items-center">
-
-                <img class="main_source" src="./images/pizza_03.jpg" alt="">
-                <div class="row  ">
-                    <div class="item1">
-                        <h3 class="combo">Комбо пеперони</h3>
-                        <p class="main_info">колбаса пепперони сырокопченая — 100 г;
-                            моцарелла — 150 г;
-                            чеснок — 1 зубец;
-                            помидоры свежие — 250 г (2 шт.);
-                            томатная паста — 1 ч. ложка;
-                            орегано, сушеный базилик — по щепотке;</p>
-                    </div>
-                    <div class="item2">
-                        <h3 class="price">277 450 сум</h3>
-                        <button class="btn2" type="submit">
-                            Заказать онлайн
-                        </button>
-                    </div>
+            <h3 class="main_tour col-lg-12">Туры по направлениям:</h3>
+            <div class="row justify-content-center  align-content-center">
+                <div class=" images col-lg-3 col-md-5 col-sm-7 col-8 ">
+                    <img class="flage" src="./IMAGES/india-3599154_960_720.png" alt="">
+                    <h3 class="flag_name2"> <a href="#!">Индия</a> </h3>
                 </div>
-            </div>
-            <div class="row justtify-flex-start align-items-center">
-                <img class="main_source" src="./images/pizza_03.jpg" alt="">
-                <div class="row  ">
-                    <div class="item1">
-                        <h3 class="combo">Комбо пеперони</h3>
-                        <p class="main_info">колбаса пепперони сырокопченая — 100 г;
-                            моцарелла — 150 г;
-                            чеснок — 1 зубец;
-                            помидоры свежие — 250 г (2 шт.);
-                            томатная паста — 1 ч. ложка;
-                            орегано, сушеный базилик — по щепотке;</p>
-                    </div>
-                    <div class="item2">
-                        <h3 class="price">277 450 сум</h3>
-                        <button class="btn2" type="submit">
-                            Заказать онлайн
-                        </button>
-                    </div>
+                <div class=" images col-lg-3 col-md-5 col-sm-7 col-8">
+                    <img class="flage" src="./IMAGES/United-Arab-Emirates.png" alt="">
+                    <h3 class="flag_name2"><a href="#!">ОАЭ</a> </h3>
                 </div>
-            </div>
-            <div class="row justtify-flex-start align-items-center">
-
-                <img class="main_source" src="./images/pizza_03.jpg" alt="">
-                <div class="row  ">
-                    <div class="item1">
-                        <h3 class="combo">Комбо пеперони</h3>
-                        <p class="main_info">колбаса пепперони сырокопченая — 100 г;
-                            моцарелла — 150 г;
-                            чеснок — 1 зубец;
-                            помидоры свежие — 250 г (2 шт.);
-                            томатная паста — 1 ч. ложка;
-                            орегано, сушеный базилик — по щепотке;</p>
-                    </div>
-                    <div class="item2">
-                        <h3 class="price">277 450 сум</h3>
-                        <button class="btn2" type="submit">
-                            Заказать онлайн
-                        </button>
-                    </div>
+                <div class=" images col-lg-3 col-md-5 col-sm-7 col-8">
+                    <img class="flage" src="./IMAGES/TAILAND.png" alt="">
+                    <h3 class="flag_name4"><a href="#!">Тайланд</a> </h3>
                 </div>
-            </div>
-            <div class="row justtify-flex-start align-items-center">
-                <img class="main_source" src="./images/pizza_03.jpg" alt="">
-                <div class="row  ">
-                    <div class="item1">
-                        <h3 class="combo">Комбо пеперони</h3>
-                        <p class="main_info">колбаса пепперони сырокопченая — 100 г;
-                            моцарелла — 150 г;
-                            чеснок — 1 зубец;
-                            помидоры свежие — 250 г (2 шт.);
-                            томатная паста — 1 ч. ложка;
-                            орегано, сушеный базилик — по щепотке;</p>
-                    </div>
-                    <div class="item2">
-                        <h3 class="price">277 450 сум</h3>
-                        <button class="btn2" type="submit">
-                            Заказать онлайн
-                        </button>
-                    </div>
+                <div class=" images col-lg-3 col-md-5 col-sm-7 col-8">
+                    <img class="flage" src="./IMAGES/SIRAELpng.png" alt="">
+                    <h3 class="flag_name4"><a href="#!">Израил</a> </h3>
                 </div>
             </div>
 
-            <!-- main middle finish -->
+            <div class="main_new fluid ">
+
+                <h3 class="main_fame col-lg-8">Достопримечательности </h3>
+                <p class="fame_text col-lg-10 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                    ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                    dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                    dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                    labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+                <div class="row">
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_03.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_05.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_07.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_12.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_13.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_14.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_18.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_19.jpg" alt="">
+                        <div class="new_wrapper ">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                    <div class="wrapper col-lg-4 col-md-6 col-sm-8 col-10">
+                        <img src="./IMAGES/images/tashkent_20.jpg" alt="">
+                        <div class="new_wrapper">
+                            <h2 class="wrap_title">Дубай</h2>
+                            <p class="wrap_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                            <button class="wrap_button" type="submit">Купить</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main_last">
+                <h3 class="last_title">Процесс подготовки документов</h3>
+                <p class="last_text">Для оформления и получения визы для граждан Узбекистана понадобится следующий
+                    список необходимых документов:
+
+                    - Ксерокопия паспорта (страница с фотографией)
+
+                    - Загранпаспорт
+
+                    - Женщины до 35 лет могут выезжать на отдых только в сопровождении мужа или отца-однофамильца. Если
+                    фамилия с мужем разная, то необходимо перевести на английский язык свидетельство о браке, после чего
+                    легализовать его в первой нотариальной конторе г. Ташкента
+
+                    - Несовершеннолетние дети, путешествующие с родителями должны быть вписаны и в паспорт и визу ОВИРа
+                    одного из родителей
+
+                    Срок оформления визы: от 3 до 5 рабочих дней.
+
+                    Размер консульского сбора составляет от 85$. Виза на детей оформляется бесплатно.
+
+                    Внимание! Согласно новым правилам Иммиграционной службы ОАЭ повторные визы в страну открываются
+                    туристам только по истечению 1 месяца со дня последнего визита в ОАЭ.</p>
+            </div>
+        </div>
+    </main>
+    <!-- main finish -->
+
+    <!-- SECTION START ==============
+            ========================================= -->
+    <section>
+
+        <div class="section_top">
+            <div class="container">
+                <div class="row">
+                    <div class="section_intro">
+                        <h3 class="section_title">ЛУЧШИЕ ТУРЫ</h3>
+                        <p class="section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit
+                            in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat
+                            non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+                            unde
+                            omnis iste natus error sit voluptatem accusantium </p>
+
+                    </div>
+                </div>
 
 
-            <!-- main bottom -->
-            <div class="row justify-content-space-between align-items-center ">
-                <div class="col-4 ">
-                    <img src="./images/girls_03.jpg" alt="icon">
-                    <h3 class="bottom_title">Ситора Убайдуллаева</h3>
-                    <p class="bottom_text">Часто заказываю для офиса, всегда очень вкусно и быстро готовят. Отличная
-                        пицца, всем рекомендую.</p>
-                </div>
-                <div class="col-4">
-                    <img src="./images/girls_05.jpg" alt="icon">
-                    <h3 class="bottom_title">Светлана Перматова</h3>
-                    <p class="bottom_text">Часто заказываю для офиса, всегда очень вкусно и быстро готовят. Отличная
-                        пицца, всем рекомендую.</p>
-                </div>
-                <div class="col-4">
-                    <img src="./images/girls_07.jpg" alt="icon">
-                    <h3 class="bottom_title">Пиризат Файзуллаева</h3>
-                    <p class="bottom_text">Часто заказываю для офиса, всегда очень вкусно и быстро готовят. Отличная
-                        пицца, всем рекомендую.</p>
+                <div class="section_images">
+                    <div class="row justify-content-center">
+                        <div class="section_order col-lg-4 col-md-6">
+                            <img src="./IMAGES/images/tashkenttour_03.jpg" alt="">
+                            <div class="section_price">
+                                <ul>
+                                    <li><a class="first" href="#!">Сказочный Пхукет</a></li>
+                                    <li><a class="second" href="#!">от 399$</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section_order col-lg-4 col-md-6">
+                            <img src="./IMAGES/images/tashkenttour_05.jpg" alt="">
+                            <div class="section_price">
+                                <ul>
+                                    <li><a class="first" href="#!"> Дубай </a></li>
+                                    <li><a class="second" href="#!">от 500$</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section_order col-lg-4 col-md-6">
+                            <img src="./IMAGES/images/tashkenttour_07.jpg" alt="">
+                            <div class="section_price">
+                                <ul>
+                                    <li><a class="first" href="#!">Израиль</a></li>
+                                    <li><a class="second" href="#!">от 500$</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- main bottom finish -->
+        <div class="section_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="bottom">
+                        <h4 class="bottom_title">Отзывы</h4>
+                        <p class="bottom_text">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga
+                            provident Libero.</p>
+                    </div>
+                </div>
+                <div class="row">
 
-    </main>
-    <!-- MAIN FINISH -->
-
-
+                    <div class="section_inner section_inner1 col-lg-5 col-md-10 col-12 ">
+                        <img src="./IMAGES/images/intro_03.jpg" alt="">
+                        <p class="inner_text">“This was my first time renting from car rental. The service rep help me
+                            find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <h4 class="inner_title">Kita Say</h4>
+                    </div>
+                    <div class="section_inner section_inner2 col-lg-5 col-md-10 col-12 ">
+                        <img src="./IMAGES/images/intro_06.jpg" alt="">
+                        <p class="inner_text">“This was my first time renting from car rental. The service rep help me
+                            find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <h4 class="inner_title">Al Rayhan</h4>
+                    </div>
+                    <div class="section_inner  section_inner3 col-lg-5 col-md-10 col-12 ">
+                        <img src="./IMAGES/images/intro_11.jpg" alt="">
+                        <p class="inner_text">“This was my first time renting from car rental. The service rep help me
+                            find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <h4 class="inner_title">Brad Thompson</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION END===============
+=============================== -->
     <!-- FOOTER START -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <a href="">PIZZERIA</a>
-                   <div class="footer">
-                    <p class="number">+998 (90) 980 77 23</p>
-                    <button class="btn2" type="submit">
-                        Перезвоните мне
-                    </button>
-                </div>
+
+            <div class="footer">
+                <button class="footer_btn">Контакты</button>
+                <div class="row justify-content-center">
+                    <a href="#!"><i class="fa fa-facebook"></i></a>
+                    <a href="#!"><i class="fa fa-twitter"></i></a>
+                    <a href="#!"><i class="fa fa-dribbble"></i></a>
+                    <h3 class="footer_title">© 2012 - 2019 Deviserweb Ltd.</h3>
                 </div>
             </div>
         </div>
-
-
-
     </footer>
+    <!-- footer end -->
 
 
-
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./bootstrap-4.3.1-dist/js/jequery.min.js">
+    </script>
+    <script src="./bootstrap-4.3.1-dist/js/popper.min.js">
+    </script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.min.js">
+    </script>
 </body>
 
 </html>
