@@ -1,0 +1,138 @@
+/* MEDIA FOR LARGE SIZE */
+@media(max-width:992px) {
+    /* header */
+
+    header .ul {
+        flex-wrap: wrap;
+    }
+
+    header .header_title {
+        font-size: 60px;
+    }
+
+    /* header */
+
+    /* main */
+    main .row {
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    main .item1 {
+        padding-left: 0;
+        padding-top: 30px;
+        margin-right: 40px;
+        transform: translateX(60px);
+    }
+
+    main .item2 {
+        padding-left: 0%;
+        padding-top: 30px;
+    }
+
+    main .main_source {
+        transform: translateX(-100px);
+    }
+
+    main .col-4 {
+        width: var(--col-lg-6);
+        text-align: center;
+        justify-content: center;
+    justify-content: space-between;
+    }
+  
+}
+
+/* MEDIA FOR LARGE SIZE */
+
+
+
+
+/* MEDIA FOR MIDDLE SIZE */
+@media(max-width:768px) {
+    main .item1 {
+        text-align: center;
+        margin: 0%;
+        transform: translateX(-10px);
+        padding: 0;
+    }
+
+    main .item2 {
+        transform: translateX(100px);
+    }
+}
+
+/* MEDIA FOR MIDDLE SIZE */
+
+
+
+
+
+/* MEDIA FOR SMALL SIZE */
+@media(max-width:576px) {
+    main .item1 {
+        text-align: center;
+        margin: auto;
+        padding: 0%;
+    }
+
+    main .col-4 {
+        width: var(--col-lg-10);
+        text-align: center;
+        
+       
+    }
+    main .col-4 img{
+        width: 100%;
+        height: auto;
+    
+    }
+    main .item2 {
+        transform: translateX(-10px);
+        padding-left: 60px;
+    }
+
+    main .main_source {
+        transform: translateX(0px);
+    }
+
+    main .main_info {
+        font-size: 12px;
+    }
+
+    main .combo {
+        font-size: 24px;
+    }
+
+    main .price {
+        font-size: 25px;
+    }
+
+    main .btn2 {
+        width: 150px;
+        font-size: 14px;
+
+
+    }
+footer .col-12{
+    display: block;
+}
+    footer .footer {
+        display: block;
+
+    }
+}
+
+
+/* MEDIA FOR SMALL SIZE */
+
+
+
+
+/* MEDIA FOR NO SIZE */
+@media(max-width:320px) {
+    main .item2 {
+        transform: translateX(-20px);
+    }
+}
